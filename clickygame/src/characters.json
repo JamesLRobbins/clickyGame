@@ -1,0 +1,63 @@
+[
+    {
+        "id": 0,
+        "name": "Wood-Man",
+        "image": "https://vignette.wikia.nocookie.net/megaman/images/1/11/CW-16-WoodMan-Art.jpg/revision/latest?cb=20100506032010"
+    },
+
+    {
+        "id": 1,
+        "name": "Shadow-Man",
+        "image": "https://vignette.wikia.nocookie.net/megaman/images/c/c1/Shadowman.png/revision/latest?cb=20100509153102"
+    },
+    {
+        "id": 2,
+        "name": "Crash-Man",
+        "image": "https://vignette.wikia.nocookie.net/megaman/images/5/58/Crashman.png/revision/latest?cb=20100915202626"
+    },
+    {
+        "id": 3,
+        "name": "Sheep-Man",
+        "image": "https://vignette.wikia.nocookie.net/megaman/images/b/bd/SheepMan.png/revision/latest?cb=20100708150147"
+    },
+    {
+        "id": 4,
+        "name": "Bubble-Man",
+        "image": "https://vignette.wikia.nocookie.net/megaman/images/d/d7/Bubbleman.png/revision/latest?cb=20190125132124"
+    },
+    {
+        "id": 5,
+        "name": "Jewel-Man",
+        "image": "https://vignette.wikia.nocookie.net/megaman/images/3/30/JewelMan.jpg/revision/latest?cb=20100619050111"
+    },
+    {
+        "id": 6,
+        "name": "Air-Man",
+        "image": "https://vignette.wikia.nocookie.net/megaman/images/4/4a/Airman.png/revision/latest?cb=20100915202139"
+    },
+    {
+        "id": 7,
+        "name": "Stone-Man",
+        "image": "https://vignette.wikia.nocookie.net/megaman/images/d/dd/Stoneman.png/revision/latest?cb=20100929014824"
+    },
+    {
+        "id": 8,
+        "name": "Pharaoh-Man",
+        "image": " https://vignette.wikia.nocookie.net/megaman/images/6/6c/Pharaohman.png/revision/latest?cb=20100919040709"
+    },
+    {
+        "id": 9,
+        "name": "Quick-Man",
+        "image": "https://vignette.wikia.nocookie.net/megaman/images/7/73/CW-12-QuickMan-Art.jpg/revision/latest?cb=20100506031406"
+    },
+    {
+        "id": 10,
+        "name": "Bomb-Man",
+        "image": "https://vignette.wikia.nocookie.net/megaman/images/1/19/Bombman.png/revision/latest?cb=20100508213027"
+    },
+    {
+        "id": 11,
+        "name": "Skull-Man",
+        "image": "https://vignette.wikia.nocookie.net/megaman/images/4/47/Skullman.png/revision/latest?cb=20100919042748"
+    }
+]
