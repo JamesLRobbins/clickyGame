@@ -7,24 +7,49 @@ import characters from "./characters.json"
 import Wrapper from "./components/Wrapper/index"
 
 class App extends Component {
-  // Setting this.state.friends to the friends json array
+  // Setting this.state.pups to the cards json array
   state = {
-    clicked: false,
-    characters: characters
+    characters,
+    clickedImages: [],
+    score: 0,
+    topScore: 0
   };
 
-  // removeFriend = id => {
-  //   // Filter this.state.friends for friends with an id not equal to the id being removed
-  //   const friends = this.state.friends.filter(friend => friend.id !== id);
-  //   // Set this.state.friends equal to the new friends array
-  //   this.setState({ friends });
-  // };
+  handleClick = id => {
+    let clickedImages = this.state.clickedImages;
+
+    if(clickedImages.includes(id)){
+      this.setState({ clickedImages: [], score: 0});
+      if (this.state.score > this.state.topScore) {
+        this.setState({ topScore: this.state.score})
+      }
+      return alert('Sorry.  You Lost!  :(')
+    }else{
+      clickedImages.push(id)
+      console.log(clickedImages)
+
+      this.setState({ characters, clickedImages, score: clickedImages.length});
+
+      for (let i = characters.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        [characters[i], characters[j]] = [characters[j], characters[i]];
+      }
+    }
+  }
+
+
+   
+
+    
 
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
       <div>
-       <Header />
+       <Header 
+       score={this.state.score}
+       topScore={this.state.topScore}
+       />
        <Description />
        <Wrapper>
         {this.state.characters.map(character => (
@@ -32,7 +57,7 @@ class App extends Component {
             id={character.id}
             key={character.id}
             image={character.image}
-            name={character.name}
+            handleClick={this.handleClick}
           />
         ))}
       </Wrapper>

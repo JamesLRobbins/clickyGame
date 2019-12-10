@@ -1,7 +1,13 @@
+.title {
+    font-size: 30px;
+}
+
+
 .header {
     background: rgb(80, 16, 230);
     text-align: center;
     color: white;
-    height: 75px;
+    height: 100px;
     margin: auto;
 };
+
