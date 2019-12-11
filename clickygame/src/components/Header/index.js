@@ -5,7 +5,7 @@ function Header(props) {
     return <div className="container-flex">
     <div className="row header">
         <div className="col-md-4">
-            <h2>Clicky Game</h2>   
+            <h2 className="clickyGame">Clicky Game</h2>   
         </div>
         <div className="col-md-4">
             <h1 className="title">Click an image to begin!</h1>

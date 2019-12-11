@@ -4,10 +4,12 @@
 
 
 .header {
-    background: rgb(80, 16, 230);
+    background: rgb(16, 48, 230);
     text-align: center;
-    color: white;
-    height: 100px;
+    color: rgb(245, 228, 35);
+    height: 70px;
     margin: auto;
-};
+    padding: 15px 0;
+}
+
 
