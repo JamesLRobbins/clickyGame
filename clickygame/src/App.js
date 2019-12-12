@@ -23,7 +23,7 @@ class App extends Component {
       if (this.state.score > this.state.topScore) {
         this.setState({ topScore: this.state.score})
       }
-      return alert('Sorry.  You Lost!  :(')
+      return alert('Sorry.  Try Again!  :(')
     }else{
       clickedImages.push(id)
       console.log(clickedImages)
